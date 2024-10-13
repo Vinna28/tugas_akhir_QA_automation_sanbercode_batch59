@@ -1,0 +1,28 @@
+{
+  "name": "tugas_akhir_sanbercode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio:login": "wdio run wdio.conf.js --suite login",
+    "wdio:cart": "wdio run wdio.conf.js --suite cart",
+    "wdio:checkout": "wdio run wdio.conf.js --suite checkout"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/register": "^7.22.15",
+    "@wdio/cli": "^8.18.2",
+    "@wdio/cucumber-framework": "^8.18.2",
+    "@wdio/local-runner": "^8.18.2",
+    "@wdio/spec-reporter": "^8.18.1",
+    "wdio-cucumberjs-json-reporter": "^5.1.7"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "multiple-cucumber-html-reporter": "^3.5.0"
+  }
+}
