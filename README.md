@@ -63,12 +63,12 @@ Setup end-to-end automation dengan WDIO + Cucumber
 Struktur skenario Gherkin untuk login flow
 Troubleshooting otomatisasi saat encountering undefined step error
 Manajemen skrip dan konfigurasi NPM untuk menjalankan tests dengan mudah
+Menggunakan Page Object Model (POM) agar lebih scalable
 
 Next Steps
 Ekspansi automasi ke skenario lain (search, cart, checkout)
 Tambahkan reporting (Allure atau HTML report)
 Integrasi dengan CI/CD (GitHub Actions / GitLab CI)
-Gunakan Page Object Model (POM) agar lebih scalable
 
 License
 MIT License – feel free to explore, reuse, and learn from this project.
